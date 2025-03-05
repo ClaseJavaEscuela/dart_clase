@@ -7,7 +7,6 @@ void main() {
   // de esta forma obligamos que la clave sea String y el valor sea un valor dinamico
   Map <String,dynamic> datos ={"nombre":"luis","apellido":"diaz","edad":25,"peso":78.9};
   
- 
   //como se agrega un nuevo elemento a un objeto
   datos.addAll({"direccion":"mi casa"});
   
