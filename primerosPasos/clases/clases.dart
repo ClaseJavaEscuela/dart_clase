@@ -23,7 +23,6 @@ class Persona {
 
 void main() {
   Map <String,dynamic> datos ={"nombre":"luis","apellido":"diaz"};
-  final persona = Persona(nombre: "luis", apellido: "diaz");
   final personaDos = Persona.fromRawJson(datos);
   print(personaDos);
 }

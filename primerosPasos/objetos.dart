@@ -2,6 +2,7 @@ void main() {
   // a los objetos en dart se les conoce como MAP
   // creacion de un objeto
   Map persona = {"nombre": "luis", "apellido": "diaz"};
+  print(persona);
   
   //tambien podemos indicarles los tipos de valores que pueda aceptar
   // de esta forma obligamos que la clave sea String y el valor sea un valor dinamico
